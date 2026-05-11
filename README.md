@@ -41,15 +41,19 @@ python3 CVE-2025-54424.py -f targets.txt -t 20
 
 ### pocsuite3
 
-- `n8n/` — CVE-2026-21858 (LFI) + CVE-2025-68613 (RCE)
-- `react/` — CVE-2025-55182
+| 目录 | CVE | 类型 | 目标 |
+|------|-----|------|------|
+| `n8n/` | CVE-2026-21858 | LFI → Admin Token → RCE | n8n 工作流平台 |
+| `react/` | CVE-2025-55182 | RCE | React Server Components |
 
 ### standalone
 
-- `1panel/` — CVE-2025-54424 (客户端证书绕过 RCE)
-- `copy-fail-CVE-2026-31431/` — copy_fail 内核提权
-- `dirtyfrag/` — 脏页碎片化利用
-- `ruoyi/` — CVE-2023-49371
+| 目录 | CVE | 类型 | 目标 |
+|------|-----|------|------|
+| `1panel/` | CVE-2025-54424 | 客户端证书绕过 RCE | 1Panel 管理面板 |
+| `copy-fail-CVE-2026-31431/` | CVE-2026-31431 | 内核提权 (copy_fail) | Linux 内核 |
+| `dirtyfrag/` | — | 脏页碎片化利用 | Linux 内核 |
+| `ruoyi/` | CVE-2023-49371 | SQL 注入 | 若依系统 |
 
 ## 待复现漏洞
 

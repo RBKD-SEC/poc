@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results / Logs
+*.json
+*.txt
+!requirements.txt
+result*/
+output*/
+
+# Compiled binaries (C/C++ exploits from standalone/)
+*.o
+*.out
+*.exe
+a.out
+*.dylib
+
+# Temp files
+*.tmp
+*.bak
+*.log
