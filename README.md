@@ -51,6 +51,10 @@ python3 CVE-2025-54424.py -f targets.txt -t 20
 - `dirtyfrag/` — 脏页碎片化利用
 - `ruoyi/` — CVE-2023-49371
 
+## 待复现漏洞
+
+查看 [`TODO.md`](./TODO.md) 了解当前待复现的漏洞清单。
+
 ## 新增 PoC
 
 ### 目录规范
